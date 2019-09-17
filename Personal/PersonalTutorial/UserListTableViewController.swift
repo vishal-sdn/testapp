@@ -34,7 +34,7 @@ class UserListTableViewController: UIViewController,UITableViewDataSource {
         return cell
     }
     
-   // func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return userNameStringArray.count
     }
 }//test
